@@ -1,0 +1,5 @@
+.netlify/
+node_modules
+desktop-preview.png
+mobile-preview.png
+.DS_Store
