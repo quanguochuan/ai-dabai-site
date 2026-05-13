@@ -3,140 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>野生AI大白 | AI 实战资料站</title>
-    <meta name="description" content="野生AI大白，用大白话讲 AI，帮普通人做图、做网页、做小红书内容和副业作品。" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2317212b'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-size='23' font-family='Arial' font-weight='700' fill='white'%3EAI%3C/text%3E%3C/svg%3E" />
+    <title>野生AI大白 | 工具与作品记录</title>
+    <meta name="description" content="野生AI大白的个人站，记录工具体验、作品案例、资料整理和个人服务。" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23ffffff'/%3E%3Ccircle cx='32' cy='32' r='21' fill='%2314b8a6'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-size='18' font-family='Arial' font-weight='700' fill='white'%3EDB%3C/text%3E%3C/svg%3E" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="回到首页">
-        <span class="brand-mark">AI</span>
-        <span>野生AI大白</span>
+        <span class="brand-avatar" aria-hidden="true">白</span>
       </a>
       <nav class="nav-links" aria-label="主导航">
-        <a href="#cases">案例</a>
-        <a href="#resources">资料</a>
+        <a class="active" href="#top">首页</a>
+        <a href="#work">作品</a>
+        <a href="#notes">资料</a>
         <a href="#services">服务</a>
+        <a href="#about">关于</a>
         <a href="#contact">联系</a>
       </nav>
+      <a class="header-link" href="#notes">资料 -></a>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-bg" aria-hidden="true">
-          <div class="flow flow-one"></div>
-          <div class="flow flow-two"></div>
-          <div class="hero-preview">
-            <div class="preview-window">
-              <div class="preview-topbar"><span></span><span></span><span></span></div>
-              <div class="preview-body">
-                <p>AI 实战资料站</p>
-                <strong>把工具变成作品</strong>
-                <div class="preview-line long"></div>
-                <div class="preview-line"></div>
-                <div class="preview-pills"><span>AI 图片</span><span>网页</span><span>副业</span></div>
-              </div>
+        <p class="kicker">野生AI大白的个人站</p>
+        <h1 id="hero-title">发现好用工具，<br />把想法做成作品</h1>
+        <p class="hero-copy">这里整理我做过的页面、试过的工具、踩过的坑和可交付的小服务。内容尽量讲结果、讲过程、讲普通人真正用得上的部分。</p>
+      </section>
+
+      <section class="showcase" aria-label="站点入口">
+        <article class="feature-card tall">
+          <div class="card-copy">
+            <span class="tag">记录</span>
+            <h2>最近在做什么</h2>
+            <p>把零散想法整理成可复用的清单、页面和案例。先做出来，再复盘哪里值得长期积累。</p>
+            <a href="#about">继续了解</a>
+          </div>
+          <div class="scene scene-lane" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+        </article>
+
+        <div class="stack">
+          <article class="feature-card compact">
+            <div class="card-copy">
+              <span class="tag">作品</span>
+              <h2>页面与小项目</h2>
+              <p>个人主页、资料页、展示页、工具入口页。重点是清楚、能用、能上线。</p>
+              <a href="#work">查看作品</a>
             </div>
-            <div class="preview-stack"><span>资料入口</span><span>案例展示</span><span>服务菜单</span></div>
-          </div>
+            <div class="scene scene-sky" aria-hidden="true"></div>
+          </article>
+          <article class="feature-card compact">
+            <div class="card-copy">
+              <span class="tag">资料</span>
+              <h2>入门清单</h2>
+              <p>把常见问题拆成步骤，把工具选择变成清单，把重复回答沉淀成资料。</p>
+              <a href="#notes">打开目录</a>
+            </div>
+            <div class="scene scene-city" aria-hidden="true"></div>
+          </article>
         </div>
-        <div class="hero-content">
-          <p class="eyebrow">AI 实战资料站</p>
-          <h1 id="hero-title">野生AI大白</h1>
-          <p class="hero-subtitle">用大白话讲 AI，帮普通人做图、做网页、做副业。</p>
-          <p class="hero-copy">我把自己实测过的 AI 工具、避坑经验和小作品整理出来。先做出能发布、能展示、能交付的结果，再慢慢升级成副业能力。</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#resources">领取入门资料</a>
-            <a class="button secondary" href="#cases">查看实战案例</a>
+
+        <article class="feature-card tall service-preview">
+          <div class="card-copy">
+            <span class="tag">服务</span>
+            <h2>把问题拆成下一步</h2>
+            <p>适合想做个人展示页、资料入口、工具流程整理，但不知道怎么开始的人。</p>
           </div>
-          <div class="proof-row">
-            <span>AI 图片实战</span>
-            <span>Codex 做网页</span>
-            <span>小红书副业记录</span>
+          <div class="menu-panel" aria-hidden="true">
+            <div><strong>01</strong><span>明确目标</span></div>
+            <div><strong>02</strong><span>整理素材</span></div>
+            <div><strong>03</strong><span>做出初版</span></div>
+            <div><strong>04</strong><span>上线迭代</span></div>
           </div>
-        </div>
+        </article>
       </section>
 
-      <section class="section" aria-labelledby="start-title">
+      <section class="section" id="work" aria-labelledby="work-title">
         <div class="section-heading">
-          <p class="eyebrow">从一个小作品开始</p>
-          <h2 id="start-title">你可以先从这几个方向入手</h2>
+          <p class="kicker">WORK</p>
+          <h2 id="work-title">作品方向</h2>
         </div>
-        <div class="feature-grid">
-          <article class="feature-card"><span>01</span><h3>AI 图片实战</h3><p>小红书封面、产品图、海报图、头像图。重点不是堆提示词，而是做出能用的画面。</p></article>
-          <article class="feature-card"><span>02</span><h3>Codex 做网页</h3><p>个人主页、资料领取页、接单页。不会写代码也能先学会提需求、看结果、改细节。</p></article>
-          <article class="feature-card"><span>03</span><h3>工具避坑</h3><p>少买没用会员，少踩配置坑。公开内容讲体验、替代方案和安全边界。</p></article>
-          <article class="feature-card"><span>04</span><h3>小红书副业</h3><p>选题、标题、封面、资料引流和社群转化。先验证需求，再做资料包和小班。</p></article>
-        </div>
-      </section>
-
-      <section class="section" id="cases" aria-labelledby="cases-title">
-        <div class="section-heading split">
-          <div>
-            <p class="eyebrow">实战案例</p>
-            <h2 id="cases-title">不讲空概念，先看能做出什么</h2>
-          </div>
-          <p>第一版先用轻量 mockup 展示交付方向，后续替换成真实作品截图。</p>
-        </div>
-        <div class="case-grid">
-          <article class="case-card"><div class="case-visual visual-one"><strong>小红书封面</strong><span>AI 图片案例</span></div><div class="case-body"><span>图片案例</span><h3>小红书封面 / 产品图</h3><p>围绕真实用途做图，不追求炫技，先保证能发、能看、能转化。</p></div></article>
-          <article class="case-card"><div class="case-visual visual-two"><strong>资料领取页</strong><span>工具清单 · 提示词 · 入门表</span></div><div class="case-body"><span>网页案例</span><h3>资料页 / 接单页</h3><p>用 Codex 做成真实页面，承接资料目录、服务菜单和案例入口。</p></div></article>
-          <article class="case-card"><div class="case-visual visual-three"><strong>7 天实战</strong><span>每日任务 · 作业点评 · 复盘</span></div><div class="case-body"><span>社群案例</span><h3>AI 实战小班</h3><p>把群从资料自取升级成打卡、点评、案例和付费服务入口。</p></div></article>
+        <div class="tile-grid">
+          <article class="tile"><span>01</span><h3>个人主页</h3><p>适合个人品牌、作品展示、服务说明，第一版先保证清楚和可信。</p></article>
+          <article class="tile"><span>02</span><h3>资料入口</h3><p>把文件、链接、说明和常见问题放到一个页面里，方便统一分发。</p></article>
+          <article class="tile"><span>03</span><h3>工具流程</h3><p>把复杂操作拆成步骤，沉淀成可重复使用的模板和检查清单。</p></article>
+          <article class="tile"><span>04</span><h3>视觉改版</h3><p>根据参考风格调整页面气质，让内容看起来更干净、更像一个正式项目。</p></article>
         </div>
       </section>
 
-      <section class="section" id="resources" aria-labelledby="resources-title">
-        <div class="resource-panel">
-          <div>
-            <p class="eyebrow">免费资料</p>
-            <h2 id="resources-title">新手先从这些资料开始</h2>
-            <p>资料放在群内统一更新。公开页面只放目录和入口，敏感或容易误解的细节不直接公开展开。</p>
-          </div>
-          <div class="resource-list">
-            <a href="#contact">AI 工具清单</a>
-            <a href="#contact">小红书封面提示词</a>
-            <a href="#contact">Codex 小白入门清单</a>
-            <a href="#contact">7 天 AI 实战打卡表</a>
-          </div>
+      <section class="section notes" id="notes" aria-labelledby="notes-title">
+        <div>
+          <p class="kicker">NOTES</p>
+          <h2 id="notes-title">资料先做轻，后面再慢慢补厚</h2>
+          <p>公开页面只放目录和说明，具体资料可以根据需要放在独立文件夹、网盘、表格或社群里。这样更好维护，也不会把页面做得太杂。</p>
+        </div>
+        <div class="note-list">
+          <a href="#contact">工具选择清单</a>
+          <a href="#contact">个人主页准备表</a>
+          <a href="#contact">资料页结构模板</a>
+          <a href="#contact">7 天作品打卡表</a>
         </div>
       </section>
 
       <section class="section" id="services" aria-labelledby="services-title">
         <div class="section-heading">
-          <p class="eyebrow">付费服务</p>
-          <h2 id="services-title">复杂问题，按服务处理</h2>
+          <p class="kicker">SERVICES</p>
+          <h2 id="services-title">可以从这些小服务开始</h2>
         </div>
         <div class="service-grid">
-          <article class="service-card"><h3>1 对 1 AI 入门指导</h3><p>适合已经卡在工具选择、基础配置、使用流程的人。</p><strong>199 元起</strong></article>
-          <article class="service-card"><h3>AI 图片实战指导</h3><p>围绕封面、产品图、海报图，帮你做出一组能发布的图。</p><strong>99 元起</strong></article>
-          <article class="service-card"><h3>Codex 个人主页陪跑</h3><p>从需求到上线草稿，做一个个人主页、资料页或接单页。</p><strong>399 元起</strong></article>
-          <article class="service-card"><h3>7 天 AI 实战小班</h3><p>每天一个任务，重点交付作品、作业点评和复盘。</p><strong>内测招募</strong></article>
+          <article class="service-card"><h3>工具入门咨询</h3><p>帮你判断该用什么、怎么开始、哪些坑先避开。</p><strong>199 元起</strong></article>
+          <article class="service-card"><h3>个人主页陪跑</h3><p>从需求整理到上线初版，做一个能展示自己的页面。</p><strong>399 元起</strong></article>
+          <article class="service-card"><h3>资料页搭建</h3><p>把资料目录、领取说明、常见问题整理成一个清晰页面。</p><strong>299 元起</strong></article>
+          <article class="service-card"><h3>作品改版建议</h3><p>看你的页面、封面或资料结构，给出具体修改清单。</p><strong>99 元起</strong></article>
         </div>
       </section>
 
-      <section class="section about" aria-labelledby="about-title">
+      <section class="section about" id="about" aria-labelledby="about-title">
         <div>
-          <p class="eyebrow">关于我</p>
-          <h2 id="about-title">我不是科班 AI 专家，更像长期踩坑的工具玩家</h2>
-          <p>我会把自己实测过的工具、案例和副业路径，用普通人能听懂的方式整理出来。现阶段主要分享 AI 图片、Codex 做网页、工具避坑和普通人 AI 副业实战。</p>
+          <p class="kicker">ABOUT</p>
+          <h2 id="about-title">我更关注一件事：能不能做出结果</h2>
+          <p>这个站点会持续记录我的工具尝试、页面作品、资料整理和副业实践。表达会尽量简单，不堆概念，不把简单问题讲复杂。</p>
         </div>
-        <aside>简单问题群里免费交流。复杂配置、远程指导、个人方案和页面搭建，单独按付费服务处理。</aside>
+        <aside>简单问题可以先看资料。需要我帮你判断路径、整理流程或做出页面初版，再走付费服务。</aside>
       </section>
 
       <section class="section contact" id="contact" aria-labelledby="contact-title">
         <div>
-          <p class="eyebrow">联系入口</p>
-          <h2 id="contact-title">想拿资料或咨询，先从小红书私信开始</h2>
-          <p>小红书号：1055699679。私信关键词：资料 / 实战 / 主页。</p>
+          <p class="kicker">CONTACT</p>
+          <h2 id="contact-title">想拿资料或咨询服务，可以先发关键词</h2>
+          <p>关键词：资料 / 主页 / 咨询 / 改版。后续这里可以替换成二维码、邮箱或表单入口。</p>
         </div>
-        <a class="button primary" href="#top">回到顶部</a>
+        <a class="button" href="#top">回到顶部</a>
       </section>
     </main>
 
     <footer class="footer">
       <span>野生AI大白</span>
-      <span>用大白话讲 AI，把工具变成作品。</span>
+      <span>工具、作品、资料与记录。</span>
     </footer>
   </body>
 </html>
