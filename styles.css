@@ -237,13 +237,21 @@ h2, h3, p { margin-top: 0; }
   font-size: 17px;
   font-weight: 700;
 }
-.tool-card strong {
+.tool-link {
   display: inline-flex;
+  width: fit-content;
   padding: 6px 11px;
   border: 1px solid rgba(6,199,232,.34);
   border-radius: 6px;
   color: var(--cyan);
   background: rgba(6,199,232,.08);
+  font-weight: 950;
+  transition: border-color .18s ease, background .18s ease, color .18s ease;
+}
+.tool-link:hover {
+  border-color: rgba(6,199,232,.72);
+  background: rgba(6,199,232,.15);
+  color: #7eeeff;
 }
 
 .route-grid {
