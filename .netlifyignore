@@ -3,4 +3,5 @@
 node_modules
 desktop-preview.png
 mobile-preview.png
+*-preview.png
 .DS_Store
